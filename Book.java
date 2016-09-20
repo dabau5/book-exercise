@@ -3,10 +3,10 @@
  * This might form part of a larger application such
  * as a library system, for instance.
  *
- * @author (Insert your name here.)
- * @version (Insert today's date here.)
+ * @author (Alex Cumins)
+ * @version (September 19, 2016)
  */
-class Book
+public class Book
 {
     // The fields.
     private String author;
@@ -23,4 +23,13 @@ class Book
     }
 
     // Add the methods here ...
+    public String getAuthor()
+    {
+        return author;
+    }
+    
+    public String getTitle()
+    {
+        return title;
+    }
 }
