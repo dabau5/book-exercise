@@ -42,11 +42,16 @@ public class Book
     
     public void printAuthor()
     {
-        System.out.printf("Author: %s", author);
+        System.out.printf("%s", author);
     }
     
     public void printTitle()
     {
-        System.out.printf("Title: %s", title);
+        System.out.printf("%s", title);
+    }
+    
+    public void printDetails()
+    {
+        System.out.printf("Title: %s \nAuthor: %s \nPages: %d", title, author, pages);
     }
 }
