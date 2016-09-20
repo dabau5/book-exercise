@@ -65,5 +65,9 @@ public class Book
     public void printDetails()
     {
         System.out.printf("Title: %s \nAuthor: %s \nPages: %d", title, author, pages);
+        if(refNumber.length() > 0)
+            System.out.printf("\nReference Number: %s", refNumber);
+            else
+            System.out.printf("\nReference Number: ZZZ");
     }
 }
